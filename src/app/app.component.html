@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <span>Laravel Api com Angular</span>
+</mat-toolbar>
+
+<mat-divider></mat-divider>
+
+<div fxLayout="row wrap" fxLayoutAlign="space-around none" > 
+  <app-post *ngFor="let p of posts" [postagens]="p"></app-post>  
+</div>
+
+<button mat-fab color="primary" class="float-button" (click)="openDialog()">
+  <mat-icon>add</mat-icon>
+</button>
+
+
