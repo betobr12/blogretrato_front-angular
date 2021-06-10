@@ -1,5 +1,7 @@
 # blogretrato-laravel-angular
-# projeto separado em duas partes ->branch main_front e main_back
+# projeto separado em duas partes 
+# main_front https://github.com/betobr12/betobr12-blogretrato_front-angular
+# main_back - https://github.com/betobr12/betobr12-blogretrato_back-laravel
 # obs:manter os dois projetos em uma pasta principal
 # caso tenha que separa-los, altere a rota de salvamento dos arquivos js do Angular no package.json - linha 7 "build": "ng build --output-path=../laravel_api/public/js/",
 # para instalar
