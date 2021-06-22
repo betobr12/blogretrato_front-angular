@@ -15,7 +15,7 @@ export class AppComponent {
 
   constructor(
     public dialog: MatDialog,
-    public postSevice: PostService //post service injetado aqui, comunicação api
+    public postSevice: PostService
     ){}
 
     ngOnInit(){
